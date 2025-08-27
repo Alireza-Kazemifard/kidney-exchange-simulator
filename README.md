@@ -41,15 +41,15 @@ Follow these steps to get the simulator running on your local machine.
 
 #### **Prerequisites**
 
-- Python 3.6 or higher
+- Python 3.12 or higher
 - Pip package manager
 
 #### **Installation**
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/Alireza-Kazemifard/kidney-exchange-simulator.git
+    cd kidney-exchange-simulator
     ```
 
 2.  **Install the required packages:**
@@ -104,7 +104,6 @@ The chain with the highest total score is selected. This allows the algorithm to
 .
 ├── kidney.py                # Main Python script containing all the logic.
 ├── sample.json              # A sample data file with 60 patient-donor pairs.
-├── graph_initial_state.png  # Example output graph.
 ├── README.md                # This file (English).
 └── README_FA.md             # This file (Persian).
 ```
