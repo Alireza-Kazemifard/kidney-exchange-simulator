@@ -1,0 +1,1027 @@
+{
+  "patients": [
+    {
+      "patient_id": "p1",
+      "blood_type": "O",
+      "age": 45,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_kidney_id": "k1",
+      "wants_waitlist": false,
+      "pra": 38,
+      "unacceptable_antigens": ["A32", "DR52", "A29", "A24", "DR4", "A23", "DR7", "B51", "A11", "A3", "B62"]
+    },
+    {
+      "patient_id": "p2",
+      "blood_type": "A",
+      "age": 48,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B27", "B35"], "DR": ["DR4", "DR7"]},
+      "donor_kidney_id": "k2",
+      "wants_waitlist": false,
+      "pra": 45,
+      "unacceptable_antigens": ["DR1", "A31", "DR17", "DR13", "DR52", "B51", "A32", "B57", "A68", "A1", "B44", "DR15", "A23"]
+    },
+    {
+      "patient_id": "p3",
+      "blood_type": "B",
+      "age": 52,
+      "hla_profile": {"A": ["A23", "A24"], "B": ["B40", "B44"], "DR": ["DR11", "DR13"]},
+      "donor_kidney_id": "k3",
+      "wants_waitlist": false,
+      "pra": 82,
+      "unacceptable_antigens": ["A32", "A2", "DR7", "A11", "DR4", "B8", "B51", "A30", "B27", "DR17", "B57", "A3", "DR15", "A68", "A1", "DR3", "DR1", "B62", "B60", "B35", "A29", "DR51", "B7", "A31", "DR52"]
+    },
+    {
+      "patient_id": "p4",
+      "blood_type": "O",
+      "age": 62,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B51", "B57"], "DR": ["DR15", "DR17"]},
+      "donor_kidney_id": "k4",
+      "wants_waitlist": true,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p5",
+      "blood_type": "A",
+      "age": 35,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B8", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_kidney_id": "k5",
+      "wants_waitlist": false,
+      "pra": 26,
+      "unacceptable_antigens": ["DR4", "B7", "A24", "B44", "A2", "A30", "DR17", "B51"]
+    },
+    {
+      "patient_id": "p6",
+      "blood_type": "B",
+      "age": 38,
+      "hla_profile": {"A": ["A2", "A32"], "B": ["B7", "B62"], "DR": ["DR4", "DR52"]},
+      "donor_kidney_id": "k6",
+      "wants_waitlist": false,
+      "pra": 82,
+      "unacceptable_antigens": ["A29", "DR15", "B40", "DR1", "B35", "A23", "B51", "A30", "A3", "B44", "A11", "A1", "DR11", "DR17", "A31", "B27", "A24", "DR3", "B8", "DR13", "B57", "B60", "A68", "DR7", "DR51"]
+    },
+    {
+      "patient_id": "p7",
+      "blood_type": "O",
+      "age": 41,
+      "hla_profile": {"A": ["A3", "A68"], "B": ["B27", "B44"], "DR": ["DR7", "DR1"]},
+      "donor_kidney_id": "k7",
+      "wants_waitlist": false,
+      "pra": 88,
+      "unacceptable_antigens": ["B51", "A2", "B60", "DR17", "A31", "B62", "DR15", "DR52", "A1", "B40", "A30", "DR3", "A29", "A23", "B57", "DR4", "DR13", "B7", "B35", "A32", "DR11", "B8", "A24", "DR51", "A11"]
+    },
+    {
+      "patient_id": "p8",
+      "blood_type": "AB",
+      "age": 29,
+      "hla_profile": {"A": ["A11", "A23"], "B": ["B35", "B51"], "DR": ["DR11", "DR13"]},
+      "donor_kidney_id": "k8",
+      "wants_waitlist": false,
+      "pra": 45,
+      "unacceptable_antigens": ["DR3", "A31", "B8", "DR15", "A24", "DR7", "B60", "A30", "DR52", "A1", "A3", "A68", "B27"]
+    },
+    {
+      "patient_id": "p9",
+      "blood_type": "A",
+      "age": 55,
+      "hla_profile": {"A": ["A24", "A29"], "B": ["B40", "B57"], "DR": ["DR15", "DR17"]},
+      "donor_kidney_id": "k9",
+      "wants_waitlist": true,
+      "pra": 82,
+      "unacceptable_antigens": ["A2", "A11", "B7", "DR13", "A32", "DR7", "A1", "DR1", "A30", "B62", "A31", "B51", "DR11", "B35", "A23", "B27", "DR3", "B8", "A68", "DR51", "DR4", "A3", "B60", "DR52"]
+    },
+    {
+      "patient_id": "p10",
+      "blood_type": "B",
+      "age": 58,
+      "hla_profile": {"A": ["A30", "A31"], "B": ["B60", "B62"], "DR": ["DR51", "DR52"]},
+      "donor_kidney_id": "k10",
+      "wants_waitlist": true,
+      "pra": 71,
+      "unacceptable_antigens": ["B27", "A23", "A24", "DR15", "DR7", "B7", "B8", "DR3", "DR17", "B51", "DR13", "B57", "A29", "A11", "A1", "DR1", "A2", "B40", "B35", "DR4", "A3", "DR11"]
+    },
+    {
+      "patient_id": "p11",
+      "blood_type": "O",
+      "age": 50,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B7", "B27"], "DR": ["DR1", "DR7"]},
+      "donor_kidney_id": "k11",
+      "wants_waitlist": false,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p12",
+      "blood_type": "A",
+      "age": 33,
+      "hla_profile": {"A": ["A2", "A11"], "B": ["B8", "B35"], "DR": ["DR3", "DR4"]},
+      "donor_kidney_id": "k12",
+      "wants_waitlist": false,
+      "pra": 60,
+      "unacceptable_antigens": ["A29", "DR7", "B62", "A68", "A30", "DR1", "DR15", "DR51", "A3", "DR17", "A24", "B60", "B27", "B40", "DR52", "A1", "A31", "B51", "B7"]
+    },
+    {
+      "patient_id": "p13",
+      "blood_type": "B",
+      "age": 42,
+      "hla_profile": {"A": ["A23", "A29"], "B": ["B40", "B44"], "DR": ["DR11", "DR15"]},
+      "donor_kidney_id": "k13",
+      "wants_waitlist": false,
+      "pra": 71,
+      "unacceptable_antigens": ["DR1", "B62", "DR17", "A30", "A31", "DR51", "A24", "B35", "A1", "A3", "DR52", "B60", "DR3", "A11", "B8", "A68", "DR7", "B57", "B51", "B7", "B27", "DR13"]
+    },
+    {
+      "patient_id": "p14",
+      "blood_type": "O",
+      "age": 47,
+      "hla_profile": {"A": ["A24", "A30"], "B": ["B51", "B60"], "DR": ["DR13", "DR17"]},
+      "donor_kidney_id": "k14",
+      "wants_waitlist": false,
+      "pra": 94,
+      "unacceptable_antigens": ["A2", "A1", "B40", "B8", "A23", "B7", "A31", "B44", "A11", "DR7", "DR52", "DR1", "A32", "DR15", "B35", "DR4", "A3", "DR3", "B27", "A29", "DR51", "B57", "B62", "A68", "DR11"]
+    },
+    {
+      "patient_id": "p15",
+      "blood_type": "A",
+      "age": 53,
+      "hla_profile": {"A": ["A31", "A68"], "B": ["B57", "B62"], "DR": ["DR51", "DR1"]},
+      "donor_kidney_id": "k15",
+      "wants_waitlist": true,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p16",
+      "blood_type": "AB",
+      "age": 25,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR3", "DR4"]},
+      "donor_kidney_id": "k16",
+      "wants_waitlist": false,
+      "pra": 26,
+      "unacceptable_antigens": ["DR52", "A24", "DR15", "DR13", "DR1", "A30", "B27", "A23"]
+    },
+    {
+      "patient_id": "p17",
+      "blood_type": "B",
+      "age": 60,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B27", "B35"], "DR": ["DR7", "DR11"]},
+      "donor_kidney_id": "k17",
+      "wants_waitlist": false,
+      "pra": 60,
+      "unacceptable_antigens": ["DR13", "A29", "A1", "B44", "B57", "DR17", "B51", "DR4", "A2", "B60", "DR1", "DR15", "B62", "A30", "DR51", "A68", "B8", "A31", "DR3"]
+    },
+    {
+      "patient_id": "p18",
+      "blood_type": "O",
+      "age": 65,
+      "hla_profile": {"A": ["A23", "A24"], "B": ["B40", "B44"], "DR": ["DR13", "DR15"]},
+      "donor_kidney_id": "k18",
+      "wants_waitlist": true,
+      "pra": 71,
+      "unacceptable_antigens": ["A3", "B60", "B51", "DR17", "A30", "A1", "B35", "A2", "A29", "DR3", "A11", "DR1", "DR51", "B57", "B27", "DR52", "B62", "DR11", "A31", "B7", "B8", "DR7"]
+    },
+    {
+      "patient_id": "p19",
+      "blood_type": "A",
+      "age": 28,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B51", "B57"], "DR": ["DR17", "DR51"]},
+      "donor_kidney_id": "k19",
+      "wants_waitlist": false,
+      "pra": 94,
+      "unacceptable_antigens": ["DR15", "A1", "B27", "DR13", "B7", "DR52", "B62", "A24", "B35", "A3", "A31", "DR4", "B40", "DR3", "A23", "DR11", "DR1", "B44", "A2", "A32", "A11", "A68", "B8", "B60", "DR7"]
+    },
+    {
+      "patient_id": "p20",
+      "blood_type": "B",
+      "age": 31,
+      "hla_profile": {"A": ["A31", "A32"], "B": ["B60", "B62"], "DR": ["DR52", "DR1"]},
+      "donor_kidney_id": "k20",
+      "wants_waitlist": false,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p21",
+      "blood_type": "A",
+      "age": 39,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B7", "B40"], "DR": ["DR1", "DR11"]},
+      "donor_kidney_id": "k21",
+      "wants_waitlist": false,
+      "pra": 26,
+      "unacceptable_antigens": ["A24", "A30", "DR7", "A31", "B51", "DR17", "DR3", "B60"]
+    },
+    {
+      "patient_id": "p22",
+      "blood_type": "B",
+      "age": 44,
+      "hla_profile": {"A": ["A2", "A24"], "B": ["B8", "B44"], "DR": ["DR4", "DR13"]},
+      "donor_kidney_id": "k22",
+      "wants_waitlist": false,
+      "pra": 60,
+      "unacceptable_antigens": ["DR11", "B27", "DR3", "B40", "A1", "A30", "B60", "B51", "A32", "DR1", "A11", "DR7", "A3", "DR17", "DR52", "A23", "B35", "B57", "DR15"]
+    },
+    {
+      "patient_id": "p23",
+      "blood_type": "AB",
+      "age": 31,
+      "hla_profile": {"A": ["A29", "A68"], "B": ["B27", "B51"], "DR": ["DR7", "DR15"]},
+      "donor_kidney_id": "k23",
+      "wants_waitlist": false,
+      "pra": 71,
+      "unacceptable_antigens": ["DR4", "A11", "A32", "B62", "A2", "A3", "B35", "DR52", "DR1", "A24", "B7", "DR13", "DR11", "A30", "B8", "B57", "B44", "DR3", "DR17", "A1", "A23", "DR51"]
+    },
+    {
+      "patient_id": "p24",
+      "blood_type": "O",
+      "age": 58,
+      "hla_profile": {"A": ["A1", "A30"], "B": ["B35", "B57"], "DR": ["DR1", "DR17"]},
+      "donor_kidney_id": "k24",
+      "wants_waitlist": false,
+      "pra": 94,
+      "unacceptable_antigens": ["DR15", "A23", "B27", "DR13", "A3", "DR52", "B62", "A24", "DR11", "A31", "DR4", "B40", "DR3", "A2", "B44", "A32", "A11", "A68", "B8", "B60", "B51", "DR7", "B7", "DR51", "A29"]
+    },
+    {
+      "patient_id": "p25",
+      "blood_type": "A",
+      "age": 63,
+      "hla_profile": {"A": ["A2", "A31"], "B": ["B40", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_kidney_id": "k25",
+      "wants_waitlist": true,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p26",
+      "blood_type": "B",
+      "age": 28,
+      "hla_profile": {"A": ["A3", "A32"], "B": ["B44", "B62"], "DR": ["DR4", "DR52"]},
+      "donor_kidney_id": "k26",
+      "wants_waitlist": false,
+      "pra": 26,
+      "unacceptable_antigens": ["A23", "A29", "B35", "DR1", "B57", "DR11", "B27", "DR13"]
+    },
+    {
+      "patient_id": "p27",
+      "blood_type": "O",
+      "age": 49,
+      "hla_profile": {"A": ["A11", "A23"], "B": ["B7", "B51"], "DR": ["DR7", "DR1"]},
+      "donor_kidney_id": "k27",
+      "wants_waitlist": false,
+      "pra": 60,
+      "unacceptable_antigens": ["A3", "B60", "B35", "DR17", "A30", "A1", "A2", "A29", "DR3", "DR15", "DR51", "B57", "DR13", "B27", "DR52", "B62", "A31", "B44", "B8"]
+    },
+    {
+      "patient_id": "p28",
+      "blood_type": "AB",
+      "age": 36,
+      "hla_profile": {"A": ["A24", "A29"], "B": ["B8", "B57"], "DR": ["DR11", "DR13"]},
+      "donor_kidney_id": "k28",
+      "wants_waitlist": false,
+      "pra": 71,
+      "unacceptable_antigens": ["B62", "A32", "B40", "A1", "DR1", "B27", "DR4", "B35", "DR15", "A31", "DR17", "A68", "A23", "DR3", "A3", "B60", "A2", "B44", "DR51", "B7", "A11", "DR52"]
+    },
+    {
+      "patient_id": "p29",
+      "blood_type": "A",
+      "age": 51,
+      "hla_profile": {"A": ["A30", "A68"], "B": ["B27", "B60"], "DR": ["DR15", "DR17"]},
+      "donor_kidney_id": "k29",
+      "wants_waitlist": false,
+      "pra": 94,
+      "unacceptable_antigens": ["DR1", "A1", "B40", "B8", "A23", "B7", "A31", "B44", "A11", "DR7", "DR52", "DR13", "A32", "B35", "DR4", "A3", "DR3", "A29", "DR51", "B57", "B62", "A2", "B51", "DR11", "A24"]
+    },
+    {
+      "patient_id": "p30",
+      "blood_type": "B",
+      "age": 56,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B35", "B62"], "DR": ["DR51", "DR52"]},
+      "donor_kidney_id": "k30",
+      "wants_waitlist": true,
+      "pra": 2,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p31",
+      "blood_type": "O",
+      "age": 56,
+      "hla_profile": {"A": ["A3", "A2"], "B": ["B44", "B57"], "DR": ["DR11", "DR52"]},
+      "donor_kidney_id": "k31",
+      "wants_waitlist": false,
+      "pra": 83,
+      "unacceptable_antigens": ["DR51", "DR7", "B7", "B35", "B27", "A1", "DR3", "DR17", "DR13", "DR15", "DR4", "B62", "B60", "A24", "A32", "A11", "B40", "A68", "A31", "B8", "A23", "B51", "A30", "A29", "DR1"]
+    },
+    {
+      "patient_id": "p32",
+      "blood_type": "A",
+      "age": 58,
+      "hla_profile": {"A": ["A24", "A11"], "B": ["B51", "B27"], "DR": ["DR15", "DR17"]},
+      "donor_kidney_id": "k32",
+      "wants_waitlist": true,
+      "pra": 43,
+      "unacceptable_antigens": ["A2", "A31", "B40", "A32", "DR11", "DR52", "A68", "DR7", "A29", "DR13", "A1", "B62", "B7"]
+    },
+    {
+      "patient_id": "p33",
+      "blood_type": "B",
+      "age": 56,
+      "hla_profile": {"A": ["A30", "A1"], "B": ["B60", "B27"], "DR": ["DR15", "DR51"]},
+      "donor_kidney_id": "k33",
+      "wants_waitlist": true,
+      "pra": 55,
+      "unacceptable_antigens": ["A3", "B7", "DR52", "A23", "DR1", "B62", "B40", "A32", "B51", "DR11", "DR7", "A68", "A11", "DR13", "B35", "DR4", "B8"]
+    },
+    {
+      "patient_id": "p34",
+      "blood_type": "A",
+      "age": 30,
+      "hla_profile": {"A": ["A31", "A68"], "B": ["B44", "B7"], "DR": ["DR11", "DR51"]},
+      "donor_kidney_id": "k34",
+      "wants_waitlist": true,
+      "pra": 15,
+      "unacceptable_antigens": ["DR4", "A1", "A2", "DR17"]
+    },
+    {
+      "patient_id": "p35",
+      "blood_type": "O",
+      "age": 63,
+      "hla_profile": {"A": ["A23", "A11"], "B": ["B40", "B44"], "DR": ["DR7", "DR15"]},
+      "donor_kidney_id": "k35",
+      "wants_waitlist": true,
+      "pra": 8,
+      "unacceptable_antigens": ["DR3", "A68"]
+    },
+    {
+      "patient_id": "p36",
+      "blood_type": "A",
+      "age": 28,
+      "hla_profile": {"A": ["A30", "A1"], "B": ["B8", "B44"], "DR": ["DR3", "DR1"]},
+      "donor_kidney_id": "k36",
+      "wants_waitlist": true,
+      "pra": 1,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p37",
+      "blood_type": "A",
+      "age": 23,
+      "hla_profile": {"A": ["A11", "A29"], "B": ["B62", "B35"], "DR": ["DR13", "DR1"]},
+      "donor_kidney_id": "k37",
+      "wants_waitlist": false,
+      "pra": 97,
+      "unacceptable_antigens": ["A30", "B57", "B7", "A24", "DR11", "DR7", "DR4", "B40", "A1", "B27", "DR17", "A32", "A23", "A68", "DR3", "B44", "DR52", "B8", "B60", "A31", "DR15", "DR51", "A3", "B51", "A2"]
+    },
+    {
+      "patient_id": "p38",
+      "blood_type": "A",
+      "age": 42,
+      "hla_profile": {"A": ["A1", "A30"], "B": ["B40", "B7"], "DR": ["DR13", "DR52"]},
+      "donor_kidney_id": "k38",
+      "wants_waitlist": true,
+      "pra": 88,
+      "unacceptable_antigens": ["A24", "A2", "A32", "DR15", "DR1", "DR4", "B35", "DR51", "A3", "DR7", "DR11", "B57", "A23", "DR3", "A11", "A31", "B51", "B44", "B60", "B27", "A29", "B62", "B8", "A68", "DR17"]
+    },
+    {
+      "patient_id": "p39",
+      "blood_type": "B",
+      "age": 46,
+      "hla_profile": {"A": ["A30", "A32"], "B": ["B62", "B51"], "DR": ["DR13", "DR1"]},
+      "donor_kidney_id": "k39",
+      "wants_waitlist": true,
+      "pra": 25,
+      "unacceptable_antigens": ["DR7", "DR17", "A68", "DR3", "A1", "B60", "A29"]
+    },
+    {
+      "patient_id": "p40",
+      "blood_type": "O",
+      "age": 53,
+      "hla_profile": {"A": ["A11", "A30"], "B": ["B57", "B62"], "DR": ["DR1", "DR3"]},
+      "donor_kidney_id": "k40",
+      "wants_waitlist": false,
+      "pra": 15,
+      "unacceptable_antigens": ["DR51", "DR4", "B8", "B27"]
+    },
+    {
+      "patient_id": "p41",
+      "blood_type": "A",
+      "age": 44,
+      "hla_profile": {"A": ["A2", "A24"], "B": ["B7", "B44"], "DR": ["DR4", "DR11"]},
+      "donor_kidney_id": "k41",
+      "wants_waitlist": false,
+      "pra": 30,
+      "unacceptable_antigens": ["A1", "B8", "DR1", "DR7"]
+    },
+    {
+      "patient_id": "p42",
+      "blood_type": "O",
+      "age": 59,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_kidney_id": "k42",
+      "wants_waitlist": true,
+      "pra": 95,
+      "unacceptable_antigens": ["A2", "A11", "A23", "A24", "A29", "A30", "A31", "A32", "A68", "B27", "B35", "B40", "B44", "B51", "B57", "B60", "B62", "DR4", "DR7", "DR11", "DR13", "DR15", "DR17", "DR51", "DR52"]
+    },
+    {
+      "patient_id": "p43",
+      "blood_type": "B",
+      "age": 37,
+      "hla_profile": {"A": ["A2", "A11"], "B": ["B35", "B62"], "DR": ["DR4", "DR13"]},
+      "donor_kidney_id": "k43",
+      "wants_waitlist": false,
+      "pra": 10,
+      "unacceptable_antigens": ["A1", "B8"]
+    },
+    {
+      "patient_id": "p44",
+      "blood_type": "AB",
+      "age": 50,
+      "hla_profile": {"A": ["A1", "A30"], "B": ["B8", "B40"], "DR": ["DR1", "DR17"]},
+      "donor_kidney_id": "k44",
+      "wants_waitlist": true,
+      "pra": 5,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p45",
+      "blood_type": "O",
+      "age": 33,
+      "hla_profile": {"A": ["A23", "A24"], "B": ["B44", "B51"], "DR": ["DR11", "DR7"]},
+      "donor_kidney_id": "k45",
+      "wants_waitlist": false,
+      "pra": 40,
+      "unacceptable_antigens": ["A1", "A2", "B7", "B8", "DR1", "DR3", "DR4"]
+    },
+    {
+      "patient_id": "p46",
+      "blood_type": "A",
+      "age": 55,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B57", "B60"], "DR": ["DR15", "DR52"]},
+      "donor_kidney_id": "k46",
+      "wants_waitlist": true,
+      "pra": 65,
+      "unacceptable_antigens": ["A1", "A2", "A3", "B7", "B8", "DR1", "DR3", "DR4", "DR7", "DR11"]
+    },
+    {
+      "patient_id": "p47",
+      "blood_type": "B",
+      "age": 48,
+      "hla_profile": {"A": ["A31", "A32"], "B": ["B27", "B35"], "DR": ["DR13", "DR51"]},
+      "donor_kidney_id": "k47",
+      "wants_waitlist": false,
+      "pra": 75,
+      "unacceptable_antigens": ["A1", "A2", "A24", "B8", "B44", "B62", "DR1", "DR4", "DR7"]
+    },
+    {
+      "patient_id": "p48",
+      "blood_type": "O",
+      "age": 61,
+      "hla_profile": {"A": ["A1", "A68"], "B": ["B7", "B62"], "DR": ["DR1", "DR17"]},
+      "donor_kidney_id": "k48",
+      "wants_waitlist": true,
+      "pra": 22,
+      "unacceptable_antigens": ["A2", "B8", "DR4"]
+    },
+    {
+      "patient_id": "p49",
+      "blood_type": "A",
+      "age": 29,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B8", "B40"], "DR": ["DR3", "DR11"]},
+      "donor_kidney_id": "k49",
+      "wants_waitlist": false,
+      "pra": 18,
+      "unacceptable_antigens": ["A24", "B44", "DR13"]
+    },
+    {
+      "patient_id": "p50",
+      "blood_type": "AB",
+      "age": 40,
+      "hla_profile": {"A": ["A2", "A23"], "B": ["B7", "B51"], "DR": ["DR4", "DR15"]},
+      "donor_kidney_id": "k50",
+      "wants_waitlist": false,
+      "pra": 35,
+      "unacceptable_antigens": ["A1", "A3", "B8", "B27", "DR1", "DR7"]
+    },
+    {
+      "patient_id": "p51",
+      "blood_type": "B",
+      "age": 52,
+      "hla_profile": {"A": ["A24", "A30"], "B": ["B44", "B60"], "DR": ["DR13", "DR52"]},
+      "donor_kidney_id": "k51",
+      "wants_waitlist": true,
+      "pra": 85,
+      "unacceptable_antigens": ["A1", "A2", "A3", "A11", "B7", "B8", "B27", "B35", "B51", "DR1", "DR3", "DR4", "DR7", "DR11", "DR17"]
+    },
+    {
+      "patient_id": "p52",
+      "blood_type": "O",
+      "age": 46,
+      "hla_profile": {"A": ["A29", "A31"], "B": ["B57", "B62"], "DR": ["DR1", "DR15"]},
+      "donor_kidney_id": "k52",
+      "wants_waitlist": false,
+      "pra": 50,
+      "unacceptable_antigens": ["A1", "A2", "A3", "B7", "B8", "B44", "DR4", "DR7"]
+    },
+    {
+      "patient_id": "p53",
+      "blood_type": "A",
+      "age": 36,
+      "hla_profile": {"A": ["A1", "A32"], "B": ["B8", "B27"], "DR": ["DR3", "DR17"]},
+      "donor_kidney_id": "k53",
+      "wants_waitlist": false,
+      "pra": 3,
+      "unacceptable_antigens": []
+    },
+    {
+      "patient_id": "p54",
+      "blood_type": "B",
+      "age": 64,
+      "hla_profile": {"A": ["A3", "A23"], "B": ["B7", "B35"], "DR": ["DR4", "DR7"]},
+      "donor_kidney_id": "k54",
+      "wants_waitlist": true,
+      "pra": 12,
+      "unacceptable_antigens": ["A2", "B8"]
+    },
+    {
+      "patient_id": "p55",
+      "blood_type": "O",
+      "age": 28,
+      "hla_profile": {"A": ["A24", "A68"], "B": ["B40", "B51"], "DR": ["DR11", "DR13"]},
+      "donor_kidney_id": "k55",
+      "wants_waitlist": true,
+      "pra": 98,
+      "unacceptable_antigens": ["A1", "A2", "A3", "A11", "A23", "A29", "A30", "A31", "A32", "B7", "B8", "B27", "B35", "B44", "B57", "B60", "B62", "DR1", "DR3", "DR4", "DR7", "DR15", "DR17", "DR51", "DR52"]
+    },
+    {
+      "patient_id": "p56",
+      "blood_type": "AB",
+      "age": 43,
+      "hla_profile": {"A": ["A2", "A29"], "B": ["B7", "B44"], "DR": ["DR4", "DR15"]},
+      "donor_kidney_id": "k56",
+      "wants_waitlist": false,
+      "pra": 20,
+      "unacceptable_antigens": ["A1", "A3", "B8", "DR1", "DR7"]
+    },
+    {
+      "patient_id": "p57",
+      "blood_type": "A",
+      "age": 57,
+      "hla_profile": {"A": ["A30", "A31"], "B": ["B57", "B62"], "DR": ["DR1", "DR17"]},
+      "donor_kidney_id": "k57",
+      "wants_waitlist": false,
+      "pra": 48,
+      "unacceptable_antigens": ["A1", "A2", "B7", "B8", "DR3", "DR4", "DR11", "DR13"]
+    },
+    {
+      "patient_id": "p58",
+      "blood_type": "B",
+      "age": 39,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B8", "B27"], "DR": ["DR3", "DR15"]},
+      "donor_kidney_id": "k58",
+      "wants_waitlist": true,
+      "pra": 90,
+      "unacceptable_antigens": ["A2", "A11", "A23", "A24", "A29", "A30", "A31", "A32", "A68", "B7", "B35", "B40", "B44", "B51", "B57", "B60", "B62", "DR1", "DR4", "DR7", "DR11", "DR13", "DR17", "DR51", "DR52"]
+    },
+    {
+      "patient_id": "p59",
+      "blood_type": "O",
+      "age": 54,
+      "hla_profile": {"A": ["A2", "A24"], "B": ["B7", "B44"], "DR": ["DR4", "DR11"]},
+      "donor_kidney_id": "k59",
+      "wants_waitlist": false,
+      "pra": 15,
+      "unacceptable_antigens": ["A1", "B8"]
+    },
+    {
+      "patient_id": "p60",
+      "blood_type": "A",
+      "age": 49,
+      "hla_profile": {"A": ["A29", "A68"], "B": ["B40", "B57"], "DR": ["DR13", "DR17"]},
+      "donor_kidney_id": "k60",
+      "wants_waitlist": true,
+      "pra": 55,
+      "unacceptable_antigens": ["A1", "A2", "A3", "A11", "B7", "B8", "DR1", "DR3", "DR4", "DR7"]
+    }
+  ],
+  "kidneys": [
+    {
+      "kidney_id": "k1",
+      "blood_type": "A",
+      "age": 47,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B27", "B35"], "DR": ["DR4", "DR7"]},
+      "donor_patient_id": "p1"
+    },
+    {
+      "kidney_id": "k2",
+      "blood_type": "O",
+      "age": 50,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p2"
+    },
+    {
+      "kidney_id": "k3",
+      "blood_type": "A",
+      "age": 54,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B8", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_patient_id": "p3"
+    },
+    {
+      "kidney_id": "k4",
+      "blood_type": "B",
+      "age": 64,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p4"
+    },
+    {
+      "kidney_id": "k5",
+      "blood_type": "B",
+      "age": 37,
+      "hla_profile": {"A": ["A2", "A32"], "B": ["B7", "B62"], "DR": ["DR4", "DR52"]},
+      "donor_patient_id": "p5"
+    },
+    {
+      "kidney_id": "k6",
+      "blood_type": "O",
+      "age": 40,
+      "hla_profile": {"A": ["A3", "A68"], "B": ["B27", "B44"], "DR": ["DR7", "DR1"]},
+      "donor_patient_id": "p6"
+    },
+    {
+      "kidney_id": "k7",
+      "blood_type": "A",
+      "age": 43,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B8", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_patient_id": "p7"
+    },
+    {
+      "kidney_id": "k8",
+      "blood_type": "O",
+      "age": 31,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p8"
+    },
+    {
+      "kidney_id": "k9",
+      "blood_type": "B",
+      "age": 57,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p9"
+    },
+    {
+      "kidney_id": "k10",
+      "blood_type": "O",
+      "age": 60,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p10"
+    },
+    {
+      "kidney_id": "k11",
+      "blood_type": "AB",
+      "age": 52,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p11"
+    },
+    {
+      "kidney_id": "k12",
+      "blood_type": "B",
+      "age": 35,
+      "hla_profile": {"A": ["A23", "A29"], "B": ["B40", "B44"], "DR": ["DR11", "DR15"]},
+      "donor_patient_id": "p12"
+    },
+    {
+      "kidney_id": "k13",
+      "blood_type": "O",
+      "age": 44,
+      "hla_profile": {"A": ["A24", "A30"], "B": ["B51", "B60"], "DR": ["DR13", "DR17"]},
+      "donor_patient_id": "p13"
+    },
+    {
+      "kidney_id": "k14",
+      "blood_type": "A",
+      "age": 49,
+      "hla_profile": {"A": ["A31", "A68"], "B": ["B57", "B62"], "DR": ["DR51", "DR1"]},
+      "donor_patient_id": "p14"
+    },
+    {
+      "kidney_id": "k15",
+      "blood_type": "B",
+      "age": 55,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p15"
+    },
+    {
+      "kidney_id": "k16",
+      "blood_type": "A",
+      "age": 27,
+      "hla_profile": {"A": ["A30", "A1"], "B": ["B8", "B44"], "DR": ["DR3", "DR1"]},
+      "donor_patient_id": "p16"
+    },
+    {
+      "kidney_id": "k17",
+      "blood_type": "O",
+      "age": 62,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p17"
+    },
+    {
+      "kidney_id": "k18",
+      "blood_type": "A",
+      "age": 67,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p18"
+    },
+    {
+      "kidney_id": "k19",
+      "blood_type": "B",
+      "age": 30,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p19"
+    },
+    {
+      "kidney_id": "k20",
+      "blood_type": "AB",
+      "age": 33,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p20"
+    },
+    {
+      "kidney_id": "k21",
+      "blood_type": "A",
+      "age": 40,
+      "hla_profile": {"A": ["A29", "A68"], "B": ["B27", "B51"], "DR": ["DR7", "DR15"]},
+      "donor_patient_id": "p21"
+    },
+    {
+      "kidney_id": "k22",
+      "blood_type": "O",
+      "age": 42,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B7", "B40"], "DR": ["DR1", "DR11"]},
+      "donor_patient_id": "p22"
+    },
+    {
+      "kidney_id": "k23",
+      "blood_type": "O",
+      "age": 30,
+      "hla_profile": {"A": ["A2", "A24"], "B": ["B8", "B44"], "DR": ["DR4", "DR13"]},
+      "donor_patient_id": "p23"
+    },
+    {
+      "kidney_id": "k24",
+      "blood_type": "B",
+      "age": 60,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p24"
+    },
+    {
+      "kidney_id": "k25",
+      "blood_type": "A",
+      "age": 65,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p25"
+    },
+    {
+      "kidney_id": "k26",
+      "blood_type": "O",
+      "age": 30,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p26"
+    },
+    {
+      "kidney_id": "k27",
+      "blood_type": "B",
+      "age": 51,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p27"
+    },
+    {
+      "kidney_id": "k28",
+      "blood_type": "A",
+      "age": 38,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p28"
+    },
+    {
+      "kidney_id": "k29",
+      "blood_type": "AB",
+      "age": 53,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p29"
+    },
+    {
+      "kidney_id": "k30",
+      "blood_type": "O",
+      "age": 58,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p30"
+    },
+    {
+      "kidney_id": "k31",
+      "blood_type": "A",
+      "age": 29,
+      "hla_profile": {"A": ["A23", "A2"], "B": ["B57", "B35"], "DR": ["DR7", "DR51"]},
+      "donor_patient_id": "p31"
+    },
+    {
+      "kidney_id": "k32",
+      "blood_type": "O",
+      "age": 67,
+      "hla_profile": {"A": ["A68", "A2"], "B": ["B44", "B62"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p32"
+    },
+    {
+      "kidney_id": "k33",
+      "blood_type": "A",
+      "age": 42,
+      "hla_profile": {"A": ["A24", "A29"], "B": ["B44", "B35"], "DR": ["DR1", "DR13"]},
+      "donor_patient_id": "p33"
+    },
+    {
+      "kidney_id": "k34",
+      "blood_type": "A",
+      "age": 67,
+      "hla_profile": {"A": ["A11", "A31"], "B": ["B60", "B7"], "DR": ["DR4", "DR1"]},
+      "donor_patient_id": "p34"
+    },
+    {
+      "kidney_id": "k35",
+      "blood_type": "AB",
+      "age": 60,
+      "hla_profile": {"A": ["A31", "A68"], "B": ["B8", "B27"], "DR": ["DR13", "DR7"]},
+      "donor_patient_id": "p35"
+    },
+    {
+      "kidney_id": "k36",
+      "blood_type": "B",
+      "age": 24,
+      "hla_profile": {"A": ["A29", "A1"], "B": ["B7", "B62"], "DR": ["DR51", "DR17"]},
+      "donor_patient_id": "p36"
+    },
+    {
+      "kidney_id": "k37",
+      "blood_type": "B",
+      "age": 29,
+      "hla_profile": {"A": ["A32", "A24"], "B": ["B8", "B40"], "DR": ["DR17", "DR1"]},
+      "donor_patient_id": "p37"
+    },
+    {
+      "kidney_id": "k38",
+      "blood_type": "O",
+      "age": 35,
+      "hla_profile": {"A": ["A3", "A29"], "B": ["B62", "B40"], "DR": ["DR11", "DR15"]},
+      "donor_patient_id": "p38"
+    },
+    {
+      "kidney_id": "k39",
+      "blood_type": "A",
+      "age": 48,
+      "hla_profile": {"A": ["A31", "A3"], "B": ["B44", "B60"], "DR": ["DR3", "DR52"]},
+      "donor_patient_id": "p39"
+    },
+    {
+      "kidney_id": "k40",
+      "blood_type": "A",
+      "age": 27,
+      "hla_profile": {"A": ["A3", "A24"], "B": ["B8", "B40"], "DR": ["DR7", "DR51"]},
+      "donor_patient_id": "p40"
+    },
+    {
+      "kidney_id": "k41",
+      "blood_type": "B",
+      "age": 45,
+      "hla_profile": {"A": ["A1", "A3"], "B": ["B8", "B27"], "DR": ["DR3", "DR1"]},
+      "donor_patient_id": "p41"
+    },
+    {
+      "kidney_id": "k42",
+      "blood_type": "A",
+      "age": 60,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B51", "B57"], "DR": ["DR15", "DR17"]},
+      "donor_patient_id": "p42"
+    },
+    {
+      "kidney_id": "k43",
+      "blood_type": "AB",
+      "age": 38,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p43"
+    },
+    {
+      "kidney_id": "k44",
+      "blood_type": "O",
+      "age": 51,
+      "hla_profile": {"A": ["A24", "A29"], "B": ["B40", "B44"], "DR": ["DR11", "DR13"]},
+      "donor_patient_id": "p44"
+    },
+    {
+      "kidney_id": "k45",
+      "blood_type": "A",
+      "age": 34,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B27", "B35"], "DR": ["DR4", "DR7"]},
+      "donor_patient_id": "p45"
+    },
+    {
+      "kidney_id": "k46",
+      "blood_type": "B",
+      "age": 56,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p46"
+    },
+    {
+      "kidney_id": "k47",
+      "blood_type": "A",
+      "age": 49,
+      "hla_profile": {"A": ["A23", "A24"], "B": ["B40", "B51"], "DR": ["DR11", "DR52"]},
+      "donor_patient_id": "p47"
+    },
+    {
+      "kidney_id": "k48",
+      "blood_type": "B",
+      "age": 62,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p48"
+    },
+    {
+      "kidney_id": "k49",
+      "blood_type": "O",
+      "age": 30,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B51", "B57"], "DR": ["DR15", "DR17"]},
+      "donor_patient_id": "p49"
+    },
+    {
+      "kidney_id": "k50",
+      "blood_type": "A",
+      "age": 41,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B8", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_patient_id": "p50"
+    },
+    {
+      "kidney_id": "k51",
+      "blood_type": "AB",
+      "age": 53,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p51"
+    },
+    {
+      "kidney_id": "k52",
+      "blood_type": "B",
+      "age": 47,
+      "hla_profile": {"A": ["A2", "A32"], "B": ["B7", "B62"], "DR": ["DR4", "DR52"]},
+      "donor_patient_id": "p52"
+    },
+    {
+      "kidney_id": "k53",
+      "blood_type": "A",
+      "age": 37,
+      "hla_profile": {"A": ["A3", "A11"], "B": ["B27", "B35"], "DR": ["DR7", "DR1"]},
+      "donor_patient_id": "p53"
+    },
+    {
+      "kidney_id": "k54",
+      "blood_type": "O",
+      "age": 65,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p54"
+    },
+    {
+      "kidney_id": "k55",
+      "blood_type": "A",
+      "age": 29,
+      "hla_profile": {"A": ["A23", "A24"], "B": ["B44", "B51"], "DR": ["DR11", "DR13"]},
+      "donor_patient_id": "p55"
+    },
+    {
+      "kidney_id": "k56",
+      "blood_type": "O",
+      "age": 44,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p56"
+    },
+    {
+      "kidney_id": "k57",
+      "blood_type": "B",
+      "age": 58,
+      "hla_profile": {"A": ["A29", "A30"], "B": ["B51", "B57"], "DR": ["DR15", "DR17"]},
+      "donor_patient_id": "p57"
+    },
+    {
+      "kidney_id": "k58",
+      "blood_type": "AB",
+      "age": 40,
+      "hla_profile": {"A": ["A1", "A2"], "B": ["B7", "B8"], "DR": ["DR1", "DR3"]},
+      "donor_patient_id": "p58"
+    },
+    {
+      "kidney_id": "k59",
+      "blood_type": "O",
+      "age": 55,
+      "hla_profile": {"A": ["A3", "A68"], "B": ["B27", "B44"], "DR": ["DR7", "DR1"]},
+      "donor_patient_id": "p59"
+    },
+    {
+      "kidney_id": "k60",
+      "blood_type": "A",
+      "age": 50,
+      "hla_profile": {"A": ["A1", "A31"], "B": ["B8", "B60"], "DR": ["DR3", "DR51"]},
+      "donor_patient_id": "p60"
+    }
+  ],
+  "next_id": 61
+}
