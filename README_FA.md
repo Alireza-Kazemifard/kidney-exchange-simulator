@@ -39,15 +39,15 @@
 
 #### **پیش‌نیازها**
 
-- پایتون نسخه ۳.۶ یا بالاتر
+- پایتون نسخه ۳.۱۲ یا بالاتر
 - مدیر بسته pip
 
 #### **نصب و راه‌اندازی**
 
 ۱. **مخزن (Repository) را کلون کنید:**
     ```sh
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/Alireza-Kazemifard/kidney-exchange-simulator.git
+    cd kidney-exchange-simulator
     ```
 
 ۲. **بسته‌های مورد نیاز را نصب کنید:**
@@ -102,7 +102,6 @@ python kidney.py
 .
 ├── kidney.py                # اسکریپت اصلی پایتون شامل تمام منطق برنامه
 ├── sample.json              # فایل داده نمونه شامل ۶۰ زوج بیمار-اهداکننده
-├── graph_initial_state.png  # نمونه گراف خروجی
 ├── README.md                # این فایل (انگلیسی)
 └── README_FA.md             # این فایل (فارسی)
 ```
