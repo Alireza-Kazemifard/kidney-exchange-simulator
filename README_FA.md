@@ -102,9 +102,9 @@ python kidney.py
 .
 ├── kidney.py                # اسکریپت اصلی پایتون شامل تمام منطق برنامه
 ├── sample.json              # فایل داده نمونه شامل ۶۰ زوج بیمار-اهداکننده
-├── graph_initial_state.png  # - گراف اولیه نمونه گراف خروجی
-├── graph_post_cycles_state.png  # نمونه گراف خروجی
-├── graph_final_state.png  # نمونه گراف خروجی
+├── graph_initial_state.png  #  گراف اولیه - نمونه گراف خروجی
+├── graph_post_cycles_state.png  # گراف بعد از حلقه - نمونه گراف خروجی
+├── graph_final_state.png  # گراف نهایی - نمونه گراف خروجی
 ├── README.md                # این فایل (انگلیسی)
 └── README_FA.md             # این فایل (فارسی)
 ```
