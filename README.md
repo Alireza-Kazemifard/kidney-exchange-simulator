@@ -104,6 +104,7 @@ The chain with the highest total score is selected. This allows the algorithm to
 .
 ├── kidney.py                # Main Python script containing all the logic.
 ├── sample.json              # A sample data file with 60 patient-donor pairs.
+├── graph_initial_state.png  # Example output graph.
 ├── README.md                # This file (English).
 └── README_FA.md             # This file (Persian).
 ```
